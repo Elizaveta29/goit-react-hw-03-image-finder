@@ -100,7 +100,7 @@ export class App extends Component {
 				{searchQuery ? <ImageGallery
 					openModal={this.openModal}
 					images={images}
-				/> : <Notify >Введіть слово в пошуковий рядочок</Notify>}
+				/> : <Notify >Введіть слово в пошуковий рядок</Notify>}
 				
 				{loadMore && <Button onClick={this.loadMore} page={page} />}
 				{showModal && (
